@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pnam	CryptX
 Summary:	CryptX - cryptographic toolkit (self-contained, no external libraries needed)
 Summary(pl.UTF-8):	CryptX - zestaw narządzi kryptograficznych (samowystarczalny, nie wymaga zewnętrznych bibliotek)
