@@ -6,13 +6,13 @@
 Summary:	CryptX - cryptographic toolkit (self-contained, no external libraries needed)
 Summary(pl.UTF-8):	CryptX - zestaw narządzi kryptograficznych (samowystarczalny, nie wymaga zewnętrznych bibliotek)
 Name:		perl-CryptX
-Version:	0.066
+Version:	0.068
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://cpan.metacpan.org/authors/id/M/MI/MIK/%{pnam}-%{version}.tar.gz
-# Source0-md5:	c966e3c4018016281c1b169cc85412c6
+# Source0-md5:	a09ccf894f74b227d5b209a69a9402d8
 URL:		http://search.cpan.org/dist/CryptX/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -141,6 +141,8 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Crypt/PK/DH.pm
 %{perl_vendorarch}/Crypt/PK/DSA.pm
 %{perl_vendorarch}/Crypt/PK/ECC.pm
+%{perl_vendorarch}/Crypt/PK/Ed25519.pm
+%{perl_vendorarch}/Crypt/PK/X25519.pm
 %{perl_vendorarch}/Crypt/PRNG/Sober128.pm
 %{perl_vendorarch}/Crypt/PRNG/ChaCha20.pm
 %{perl_vendorarch}/Crypt/PRNG/RC4.pm
@@ -257,7 +259,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/Crypt::PK::DH.3pm.*
 %{_mandir}/man3/Crypt::PK::DSA.3pm.*
 %{_mandir}/man3/Crypt::PK::ECC.3pm.*
+%{_mandir}/man3/Crypt::PK::Ed25519.3pm.*
 %{_mandir}/man3/Crypt::PK::RSA.3pm.*
+%{_mandir}/man3/Crypt::PK::X25519.3pm.*
 %{_mandir}/man3/Crypt::PRNG.3pm.*
 %{_mandir}/man3/Crypt::PRNG::ChaCha20.3pm.*
 %{_mandir}/man3/Crypt::PRNG::Fortuna.3pm.*
