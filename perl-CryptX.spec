@@ -7,7 +7,7 @@ Summary:	CryptX - cryptographic toolkit (self-contained, no external libraries n
 Summary(pl.UTF-8):	CryptX - zestaw narządzi kryptograficznych (samowystarczalny, nie wymaga zewnętrznych bibliotek)
 Name:		perl-CryptX
 Version:	0.068
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
