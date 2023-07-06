@@ -6,13 +6,13 @@
 Summary:	CryptX - cryptographic toolkit (self-contained, no external libraries needed)
 Summary(pl.UTF-8):	CryptX - zestaw narządzi kryptograficznych (samowystarczalny, nie wymaga zewnętrznych bibliotek)
 Name:		perl-CryptX
-Version:	0.074
-Release:	3
+Version:	0.078
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://cpan.metacpan.org/authors/id/M/MI/MIK/%{pnam}-%{version}.tar.gz
-# Source0-md5:	c937ce9d03f8efa9639600521a704ce7
+# Source0-md5:	24b34ceda18bbfa582b02646e9d297ea
 URL:		http://search.cpan.org/dist/CryptX/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
